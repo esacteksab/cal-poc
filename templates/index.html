@@ -1,0 +1,11 @@
+{% extends '_base.html' %} {% block content %}
+<form action="/" method="post">
+  <p>start</p>
+  <input type="date" name="start" />
+  <p>End</p>
+  <input type="date" name="end" />
+  <button>Submit</button>
+</form>
+
+You chose a start date of {{ start }} and an end date of {{ end }} {% endblock
+content %}
